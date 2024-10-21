@@ -80,9 +80,9 @@ function collapseAllGroups() {
 // });
 
 // Listen for new tab creation
-chrome.tabs.onCreated.addListener(() => {
-  groupTabs();  // Re-run the grouping logic when a new tab is created
-});
+// chrome.tabs.onCreated.addListener(() => {
+//   groupTabs();  // Re-run the grouping logic when a new tab is created
+// });
 
 // Listen for tab updates (e.g., when a tab finishes loading)
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
