@@ -75,9 +75,9 @@ function collapseAllGroups() {
 }
 
 // Run when the extension's action button is clicked
-chrome.runtime.onInstalled.addListener(() => {
-  groupTabs();  // Group tabs when the button is clicked
-});
+// chrome.runtime.onInstalled.addListener(() => {
+//   groupTabs();  // Group tabs when the button is clicked
+// });
 
 // Listen for new tab creation
 chrome.tabs.onCreated.addListener(() => {
