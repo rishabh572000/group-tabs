@@ -4,8 +4,8 @@
 
 Follow these steps to install the Group Tab Extension:
 
-1. **Download the ZIP file**
-   - [Download the Group Tab Extension ZIP file](link-to-your-zip-file)
+1. **Download the git repo**
+   - Clone this git repo in your system.
 
 2. **Open Chrome**
    - Launch the Google Chrome browser.
